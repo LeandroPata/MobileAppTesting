@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AppTesting",
+    "slug": "AppTesting",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/P5logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/P5logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic",
+      "bundleIdentifier": "com.opato.AppTesting"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "userInterfaceStyle": "automatic",
+      "package": "com.opato.AppTesting"
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    }
+    
+  }
+}
